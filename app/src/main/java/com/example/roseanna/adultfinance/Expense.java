@@ -4,7 +4,7 @@ package com.example.roseanna.adultfinance;
  * Created by roseanna on 10/10/16.
  */
 public class Expense {
-    private double cost;
+    public double cost;
     public String desc;
     public boolean monthly;
     public boolean isPaid;
@@ -14,10 +14,6 @@ public class Expense {
         this.desc       = desc;
         this.monthly    = monthly;
         this.isPaid     = isPaid;
-    }
-
-    public double getCost() {
-        return cost;
     }
 
     public String getDesc() {
@@ -31,7 +27,7 @@ public class Expense {
     public boolean getIsPaid() {
         return isPaid;
     }
-    
+
     public void setCost(double amt) {
         cost = amt;
     }
