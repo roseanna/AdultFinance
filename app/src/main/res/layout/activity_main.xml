@@ -3,12 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:padding="20dp"
     android:orientation="vertical"
-    android:weightSum="4"
+    android:weightSum="3"
     tools:context="com.example.roseanna.adultfinance.MainActivity">
     <RelativeLayout
         android:id="@+id/bankInfo"
@@ -16,7 +13,8 @@
         android:layout_height="wrap_content"
         android:minHeight="100dp"
         android:layout_weight="1"
-        android:background="#a0a0a0">
+        android:background="#a0a0a0"
+        android:clickable="true">
 
     </RelativeLayout>
     <RelativeLayout
@@ -25,7 +23,8 @@
         android:layout_height="wrap_content"
         android:minHeight="100dp"
         android:layout_weight="1"
-        android:background="#b0b0b0" >
+        android:background="#b0b0b0"
+        android:clickable="true">
 
     </RelativeLayout>
     <RelativeLayout
@@ -34,7 +33,8 @@
         android:layout_height="wrap_content"
         android:minHeight="100dp"
         android:layout_weight="1"
-        android:background="#c0c0c0" >
+        android:background="#c0c0c0"
+        android:clickable="true">
 
     </RelativeLayout>
 </LinearLayout>
