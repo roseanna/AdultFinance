@@ -9,8 +9,10 @@ public class Calculator {
     private Expense allowance;
     private Expense monthly;
 
-    public Calculator(Bank checking, Bank savings) {
-        this.checking   = checking;
-        this.savings    = savings;
+    public Calculator(Bank checking, Bank savings, Expense allowance, Expense monthly) {
+        this.checking   = new Bank(0.0);
+        this.savings    = new Bank(0.0);
+        this.allowance  = new Expense("", 0.0, false, false);
+        this.monthly    = new Expense("", 0.0, true, false);
     }
 }

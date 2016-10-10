@@ -14,11 +14,11 @@ public class Bank {
         return total;
     }
 
-    public void subTotal(double amt) {
-        this.total = total - amt;
+    public void setTotal(double amt) {
+        total = amt;
     }
 
-    public void addTotal(double amt) {
-        this.total = total + amt;
+    public void changeTotal(double amt) {
+        total = total + amt;
     }
 }
