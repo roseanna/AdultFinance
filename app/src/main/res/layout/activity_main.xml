@@ -8,28 +8,33 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    android:weightSum="3"
+    android:weightSum="4"
     tools:context="com.example.roseanna.adultfinance.MainActivity">
-
-    <TextView
+    <RelativeLayout
         android:id="@+id/bankInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="100dp"
         android:layout_weight="1"
-        android:background="#a0a0a0" />
-    <TextView
+        android:background="#a0a0a0">
+        
+    </RelativeLayout>
+    <RelativeLayout
         android:id="@+id/goalInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="100dp"
         android:layout_weight="1"
-        android:background="#b0b0b0" />
-    <TextView
+        android:background="#b0b0b0" >
+
+    </RelativeLayout>
+    <RelativeLayout
         android:id="@+id/statInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="100dp"
         android:layout_weight="1"
-        android:background="#c0c0c0" />
+        android:background="#c0c0c0" >
+
+    </RelativeLayout>
 </LinearLayout>
